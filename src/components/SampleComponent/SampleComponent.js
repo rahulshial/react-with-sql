@@ -6,7 +6,7 @@ function getUsers() {
   .then(users => console.log(users));
 }
 
-export default function SampleComponent() {
+export function SampleComponent() {
   return (
     <div>
       <p>This is a sample component</p>
